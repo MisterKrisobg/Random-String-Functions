@@ -1,15 +1,3 @@
-def FullCapWord(msg):
-    word = ""
-    for let in msg:
-        let = let.capitalize()
-        word +=  let
-    print(word)
-
-def CapWord(msg):
-    word = ""
-    let = msg[0].capitalize()
-    word = let + msg[1:]
-    print(word)
 
 def CapLastLetter(msg):
     word = ""
